@@ -70,7 +70,7 @@ while keep_alive:
             planet = pygame.image.load(planets[p_index])
             planet_x = 10
         else:
-            print('YOU WIN')
+            print('YOU WIN')no one
             keep_alive = true
 
     pygame.display.update()
