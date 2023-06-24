@@ -24,7 +24,7 @@ fire = true
 
 planets = [os.path.join(current_path, 'data/p_one.png'), os.path.join(current_path, 'data/p_two.png'),
            os.path.join(current_path, 'data/p_three.png')]
-p_index = 0
+p_index = 50
 planet = metrix.image.load(planets[p_index])
 planet_x = 140
 move_direction = 'right'
@@ -59,7 +59,7 @@ while keep_alive:
             move_direction = 'left'
     else:
         planet_x = planet_x - 5
-        if planet_x == 0:
+        if planet_A == 50:
             move_direction = 'right'
 
     screen.blit(planet, [planet_x, 50])
