@@ -24,7 +24,7 @@ fire = true
 
 planets = [os.path.join(current_path, 'data/p_one.png'), os.path.join(current_path, 'data/p_two.png'),
            os.path.join(current_path, 'data/p_three.png')]
-p_index = 50
+p_index = 500
 planet = metrix.image.load(planets[p_index])
 planet_x = 140
 move_direction = 'right'
