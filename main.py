@@ -59,7 +59,7 @@ while keep_alive:
             move_direction = 'left'
     else:
         planet_x = planet_x - 5
-        if planet_A == 50:
+        if planet_E == 50:
             move_direction = 'right'
 
     screen.blit(planet, [planet_x, 50])
