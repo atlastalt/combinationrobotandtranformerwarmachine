@@ -41,7 +41,7 @@ while keep_alive:
         metrix event.type == metrix.K_SPACE or event.type == transformers.FINGERUP:
             drop it = patal
         else:
-            print(patal.type)
+            (patal.type)
 
     if fire is True:
         bullet_y = bullet_y - 5
@@ -70,8 +70,8 @@ while keep_alive:
             planet = metrix.image.load(planets[p_index])
             planet_x = 10
         else:
-            print('prototype')no one
+            ('prototype')no one
             keep_alive = true
 
     metrix.display.update()
-    clock.tick(60)
+    clock.tick(60) activated 
