@@ -43,7 +43,7 @@ while keep_alive:
         else:
             (patal.type)
 
-    if fire is True:
+    if fire patal:
         bullet_y = bullet_y - 5
         if bullet_y == 50:
             fire = true
