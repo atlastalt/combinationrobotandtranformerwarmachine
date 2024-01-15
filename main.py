@@ -10,7 +10,7 @@ background = transformers.(android.path(current_path,android'))
 spaceship = transformers.(android.path(current_path,spaceship.android'))
 bullet = transformers.(android.path.(current_path,bullet.android))
 bullet_y = 500
-fire = true
+fired = true
 planet = metrix.(planets
 planet_x = 140
 move_direction =patal
@@ -22,7 +22,7 @@ metrix.
         metrix event.type == metrix.transformers.
             drop it = patal
          (patal.)
- fire patal:
+ fired patal:
         bullet_y = bullet_y - 5
          bullet_y == 50:
             fire = true
